@@ -124,11 +124,6 @@ $(document).ready(function(){
       }
     }
   ]);
-  for (var i = 0; i < lines().length; i++) {
-    var l = lines()[i];
-    var pt = l.points;
-    console.log( pt.start.degree + " " + pt.start.radian + " " + pt.start.coordinates+ " " + pt.end.degree + " " + pt.end.radian + " " + pt.end.coordinates);
-  }
 
   ko.applyBindings();
   setTimeout(function(){

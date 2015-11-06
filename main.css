@@ -44,9 +44,12 @@ body{
   font-size: 0.5em;
   width:80px;
   opacity: 0.25;
-  transition: opacity 0.25s;
+  transition: opacity 0.25s, transform 0.25s;
   text-align: center;
   cursor: pointer;
+}
+.point:hover{
+  transform: scale(1.4);
 }
 .start .info{
   right: -80px;

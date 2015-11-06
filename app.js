@@ -67,12 +67,12 @@ $(document).ready(function(){
       classes : "y-axis axis deg deg90",
       points : {
         start: {
-          coordinates: "( 1 ,0 )",
+          coordinates: "( 0 , 1 )",
           degree: "90" + DEGREE_SYMBOL,
           radian: PI_SYMBOL + "/2"
         },
         end: {
-          coordinates: "( -1 ,0 )",
+          coordinates: "( 0 , -1 )",
           degree: "270" + DEGREE_SYMBOL,
           radian: "3" + PI_SYMBOL + "/2"
         }
@@ -124,7 +124,7 @@ $(document).ready(function(){
       }
     }
   ]);
-  
+
   ko.applyBindings();
   setTimeout(function(){
     var audio = document.getElementById("audio");
